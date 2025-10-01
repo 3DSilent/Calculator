@@ -1,0 +1,8 @@
+.calculator{
+    display: flex;
+    gap: 5px;
+}
+
+.calculator button {
+    flex: 1;
+}

@@ -1,8 +1,26 @@
+* {
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
 .calculator{
+    height: 96vh;
+    align-items: stretch;
+}
+
+.container {
     display: flex;
-    gap: 5px;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+#equalRow {
+    display: flex;
+    flex-direction: column;
 }
 
 .calculator button {
-    flex: 1;
+    font-size: 4.5vh;
+    flex: 1 1 25%;
+    border: 3px solid white;
 }
